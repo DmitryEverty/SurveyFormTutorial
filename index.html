@@ -39,7 +39,33 @@
                 </div>
             <div class="block">
                 <div class="label">
-                    
+                    <label for="currentPos">What is your gender?</label>
+                </div>
+                <div class="input-side">                    
+                    <select name="currentPos" class="dropdown">
+                        <option disabled value>Select an option</option>
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                        <option value="skip">Other</option>
+                    </select>
+                </div>
+            </div>
+            <div class="block">
+                <div class="label">
+                    <label for="mediaPreference">What do you like the most?</label>
+                </div>
+                <div class="input-side">
+                    <ul style="list-style: none">
+                        <li class="radio">
+                            <input type="radio" name="radio-buttons" value="1" class="media-pref">Movies                            
+                        </li>
+                        <li class="radio">                            
+                            <input type="radio" name="radio-buttons" value="2" class="media-pref">Series
+                        </li>
+                        <li class="radio">                            
+                            <input type="radio" name="radio-buttons" value="3" class="media-pref">Both
+                        </li>
+                    </ul>
                 </div>
             </div>
         </form>

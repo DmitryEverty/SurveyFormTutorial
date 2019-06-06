@@ -14,12 +14,14 @@ body {
 	max-width: 900px;
 	padding: 10px;
 	padding-top: 20px;
+	height: auto;
 }
 .block {
 	display: flex;
 	justify-content: center;
-	height: 50px;
+	height: auto;
 	align-items: center;
+	padding-bottom: 10px;
 }
 .label {
 	display: block;
@@ -30,4 +32,10 @@ body {
 .input-side {
 	display: block;
 	margin: auto 30px;
+}
+
+ul {
+	text-align: left;
+	padding: 0px;
+	margin: 0px;
 }
