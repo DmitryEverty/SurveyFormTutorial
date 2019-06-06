@@ -55,16 +55,10 @@
                     <label for="mediaPreference">What do you like the most?</label>
                 </div>
                 <div class="input-side">
-                    <ul style="list-style: none">
-                        <li class="radio">
-                            <input type="radio" name="radio-buttons" value="1" class="media-pref">Movies                            
-                        </li>
-                        <li class="radio">                            
-                            <input type="radio" name="radio-buttons" value="2" class="media-pref">Series
-                        </li>
-                        <li class="radio">                            
-                            <input type="radio" name="radio-buttons" value="3" class="media-pref">Both
-                        </li>
+                    <ul id="mediaPreference" style="list-style: none">
+                        <li class="radio"><input type="radio" name="radio-buttons" value="1" class="media-pref">Movies</li>
+                        <li class="radio"><input type="radio" name="radio-buttons" value="2" class="media-pref">Series</li>
+                        <li class="radio"><input type="radio" name="radio-buttons" value="3" class="media-pref">Both</li>
                     </ul>
                 </div>
             </div>
@@ -82,10 +76,27 @@
             </div>
             <div class="block">
                 <div class="label">
-
+                    <label for="favGen">What is your favorite genres?</label>
                 </div>
                 <div class="input-side">
-                    
+                    <ul id="favGen" style="list-style: none">
+                        <li><input type="checkbox" class="checkbox">Action</li>
+                        <li><input type="checkbox" class="checkbox">Adventure</li>
+                        <li><input type="checkbox" class="checkbox">Comedy</li>
+                        <li><input type="checkbox" class="checkbox">Horror</li>
+                        <li><input type="checkbox" class="checkbox">Drama</li>
+                        <li><input type="checkbox" class="checkbox">Fantasy</li>
+                        <li><input type="checkbox" class="checkbox">Historical</li>
+                        <li><input type="checkbox" class="checkbox">Crime</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="block">
+                <div class="label">
+                    <label for="favShows">Tell us some of your favorite movies/series...</label>
+                </div>
+                <div class="input-side">
+                    <textarea class="input-field" id="favShows" style="height:70px;resize:horizontal;" placeholder="Enter your text here..."></textarea>
                 </div>
             </div>
         </form>
