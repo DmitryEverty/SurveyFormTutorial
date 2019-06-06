@@ -34,7 +34,9 @@ body {
 	display: block;
 	margin: auto 30px;
 }
-
+#number {
+	width: 156.8px;
+}
 ul {
 	text-align: left;
 	padding: 0px;
