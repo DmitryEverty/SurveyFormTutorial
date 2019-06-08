@@ -13,38 +13,40 @@
     <div id="canvas">
         <p id="description">Let us know what movies do you like</p>
         <form action="" id="survey-form">
-            <div class="block">
-                <div class="label">
-                    <label id="name-label" for="name">Name:</label>
-                </div>
-                <div class="input-side">
-                    <input id="name" type="text" autofocus name="name" placeholder="Enter your name" required>
-                </div>
-            </div>
-            <div class="block">
-                <div class="label">
-                    <label id="email-label" for="email">Email:</label>
-                </div>
-                <div class="input-side">
-                    <input id="email" type="email" autofocus name="email" placeholder="Enter your email:" required>
-                </div>
-            </div>
-            <div class="block">
+            <div class="sections">
+                <div class="block">
                     <div class="label">
-                        <label id="number-label" for="number">Age:</label>
+                        <label id="name-label" for="name">Name:</label>
                     </div>
                     <div class="input-side">
-                        <input 
-                            id="number" 
-                            type="number" 
-                            min="7"
-                            max="99"                            
-                            autofocus name="age" 
-                            placeholder="Enter your age:" 
-                            required>
+                        <input id="name" type="text" autofocus name="name" placeholder="Enter your name" required>
                     </div>
                 </div>
-            <div class="block">
+                <div class="block">
+                    <div class="label">
+                        <label id="email-label" for="email">Email:</label>
+                    </div>
+                    <div class="input-side">
+                        <input id="email" type="email" autofocus name="email" placeholder="Enter your email:" required>
+                    </div>
+                </div>
+                <div class="block">
+                        <div class="label">
+                            <label id="number-label" for="number">Age:</label>
+                        </div>
+                        <div class="input-side">
+                            <input 
+                                id="number" 
+                                type="number" 
+                                min="7"
+                                max="99"                            
+                                autofocus name="age" 
+                                placeholder="Enter your age:" 
+                                required>
+                        </div>
+                    </div>
+            </div>
+            <div class="block sections">
                 <div class="label">
                     <label for="currentPos">What is your gender?</label>
                 </div>
@@ -57,19 +59,19 @@
                     </select>
                 </div>
             </div>
-            <div class="block">
+            <div class="block sections">
                 <div class="label">
                     <label for="mediaPreference">What do you like the most?</label>
                 </div>
                 <div class="input-side">
                     <ul id="mediaPreference" style="list-style: none">
-                        <li class="radio"><input type="radio" name="radio-buttons" value="1" class="media-pref">Movies</li>
-                        <li class="radio"><input type="radio" name="radio-buttons" value="2" class="media-pref">Series</li>
-                        <li class="radio"><input type="radio" name="radio-buttons" value="3" class="media-pref">Both</li>
+                        <label><li class="radio"><input type="radio" name="radio-buttons" value="1" class="media-pref">Movies</label></li>
+                        <label><li class="radio"><input type="radio" name="radio-buttons" value="2" class="media-pref">Series</label></li>
+                        <label><li class="radio"><input type="radio" name="radio-buttons" value="3" class="media-pref">Both</label></li>
                     </ul>
                 </div>
             </div>
-            <div class="block">
+            <div class="block sections">
                 <div class="label">
                     <label for="place-to-watch">Where do you preffer to watch movies?</label>
                 </div>
@@ -81,24 +83,24 @@
                     </select>
                 </div>
             </div>
-            <div class="block">
+            <div class="block sections">
                 <div class="label">
                     <label for="favGen">What is your favorite genres?</label>
                 </div>
                 <div class="input-side">
                     <ul id="favGen" style="list-style: none">
-                        <li><input value="1" type="checkbox" class="checkbox">Action</li>
-                        <li><input value="2" type="checkbox" class="checkbox">Adventure</li>
-                        <li><input value="3" type="checkbox" class="checkbox">Comedy</li>
-                        <li><input value="4" type="checkbox" class="checkbox">Horror</li>
-                        <li><input value="5" type="checkbox" class="checkbox">Drama</li>
-                        <li><input value="6" type="checkbox" class="checkbox">Fantasy</li>
-                        <li><input value="7" type="checkbox" class="checkbox">Historical</li>
-                        <li><input value="8" type="checkbox" class="checkbox">Crime</li>
+                        <li><label><input value="1" type="checkbox" class="checkbox">Action</label></li>
+                        <li><label><input value="2" type="checkbox" class="checkbox">Adventure</label></li>
+                        <li><label><input value="3" type="checkbox" class="checkbox">Comedy</label></li>
+                        <li><label><input value="4" type="checkbox" class="checkbox">Horror</label></li>
+                        <li><label><input value="5" type="checkbox" class="checkbox">Drama</label></li>
+                        <li><label><input value="6" type="checkbox" class="checkbox">Fantasy</label></li>
+                        <li><label><input value="7" type="checkbox" class="checkbox">Historical</label></li>
+                        <li><label><input value="8" type="checkbox" class="checkbox">Crime</label></li>
                     </ul>
                 </div>
             </div>
-            <div class="block">
+            <div class="block sections">
                 <div class="label">
                     <label for="favShows">Tell us some of your favorite movies/series...</label>
                 </div>
