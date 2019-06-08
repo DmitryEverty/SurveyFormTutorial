@@ -15,7 +15,7 @@
         <form action="" id="survey-form">
             <div class="block">
                 <div class="label">
-                    <label for="name">Name:</label>
+                    <label id="name-label" for="name">Name:</label>
                 </div>
                 <div class="input-side">
                     <input id="name" type="text" autofocus name="name" placeholder="Enter your name" required>
@@ -23,7 +23,7 @@
             </div>
             <div class="block">
                 <div class="label">
-                    <label for="email">Email:</label>
+                    <label id="email-label" for="email">Email:</label>
                 </div>
                 <div class="input-side">
                     <input id="email" type="email" autofocus name="email" placeholder="Enter your email:" required>
@@ -31,7 +31,7 @@
             </div>
             <div class="block">
                     <div class="label">
-                        <label for="age">Age:</label>
+                        <label id="number-label" for="number">Age:</label>
                     </div>
                     <div class="input-side">
                         <input 
@@ -49,7 +49,7 @@
                     <label for="currentPos">What is your gender?</label>
                 </div>
                 <div class="input-side">                    
-                    <select name="currentPos" class="dropdown">
+                    <select id="dropdown" name="currentPos" class="dropdown">
                         <option disabled selected value>Select an option</option>
                         <option value="male">Male</option>
                         <option value="female">Female</option>
@@ -87,14 +87,14 @@
                 </div>
                 <div class="input-side">
                     <ul id="favGen" style="list-style: none">
-                        <li><input type="checkbox" class="checkbox">Action</li>
-                        <li><input type="checkbox" class="checkbox">Adventure</li>
-                        <li><input type="checkbox" class="checkbox">Comedy</li>
-                        <li><input type="checkbox" class="checkbox">Horror</li>
-                        <li><input type="checkbox" class="checkbox">Drama</li>
-                        <li><input type="checkbox" class="checkbox">Fantasy</li>
-                        <li><input type="checkbox" class="checkbox">Historical</li>
-                        <li><input type="checkbox" class="checkbox">Crime</li>
+                        <li><input value="1" type="checkbox" class="checkbox">Action</li>
+                        <li><input value="2" type="checkbox" class="checkbox">Adventure</li>
+                        <li><input value="3" type="checkbox" class="checkbox">Comedy</li>
+                        <li><input value="4" type="checkbox" class="checkbox">Horror</li>
+                        <li><input value="5" type="checkbox" class="checkbox">Drama</li>
+                        <li><input value="6" type="checkbox" class="checkbox">Fantasy</li>
+                        <li><input value="7" type="checkbox" class="checkbox">Historical</li>
+                        <li><input value="8" type="checkbox" class="checkbox">Crime</li>
                     </ul>
                 </div>
             </div>
