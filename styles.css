@@ -3,7 +3,7 @@ h1 {
 }
 body {
 	text-align: center;
-	background-color: rgb(111, 89, 145);
+	background-color: rgb(255, 255, 255);
 	font-family: 'Raleway', Helvetica, sans-serif;
 }
 /* #description {
@@ -43,12 +43,17 @@ body {
 .input-side {
 	display: block;
 	margin-right: 30%;
-	margin-left: 5%;
+	margin-left: 1%;
 	width: 28%;
 }
 .input-field {
 	width: 200px;
 	height: 25px;
+	padding: 3px;
+}
+.dropdown {
+	width: 210px;
+	height: 35px;
 	padding: 3px;
 }
 #number {
@@ -62,4 +67,24 @@ ul {
 }
 li {
 	margin: 5px 0px;
+}
+@media (max-width: 600px) {
+	.block {
+		flex-wrap: wrap;
+	}
+	.label {
+		width: 100%;
+		text-align: left;
+		padding: 0px 0px 10px 20px;
+	}
+	.sections {
+		padding: 15px 0px;
+	}
+	.input-side {
+		width: 100%;
+		margin: 0px;
+	}
+	.input-field {
+		width: 85%;
+	}
 }
